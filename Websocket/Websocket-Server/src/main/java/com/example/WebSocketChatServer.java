@@ -42,7 +42,7 @@ public class WebSocketChatServer extends WebSocketServer {
     }
 
     public void onStart() {
-        System.out.println("Server started!");
+        System.out.println("Server started! on wss://localhost:8090");
         setConnectionLostTimeout(0);
         setConnectionLostTimeout(100);
     }
