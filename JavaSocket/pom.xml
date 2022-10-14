@@ -7,6 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>JavaSocket</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Socket-Server</module>
+        <module>Socket-Client</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
