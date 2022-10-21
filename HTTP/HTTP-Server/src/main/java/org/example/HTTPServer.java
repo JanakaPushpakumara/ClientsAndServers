@@ -20,6 +20,7 @@ public class HTTPServer {
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
         server.createContext(context, new MyHandler());
         server.setExecutor(null); // creates a default executor
+        System.out.println("Creating HTTP server on port " + port + " of localhost");
         server.start();
     }
 
