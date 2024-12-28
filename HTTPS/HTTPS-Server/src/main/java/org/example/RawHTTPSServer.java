@@ -45,7 +45,7 @@ public class RawHTTPSServer {
         serverSocket = (SSLServerSocket) sslServerSocketFactory.createServerSocket(port);
     }
 
-    private static void startServer() throws IOException {
+    private static void startServer() {
         System.out.println("SSL Server Started!");
 
         while (true) {
